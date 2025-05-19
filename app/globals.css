@@ -18,6 +18,7 @@ body {
   0% {
     transform: translateX(-100%);
   }
+
   100% {
     transform: translateX(100%);
   }
@@ -27,6 +28,7 @@ body {
   0% {
     transform: translateY(-100%);
   }
+
   100% {
     transform: translateY(100%);
   }
@@ -36,6 +38,7 @@ body {
   .animate-glitch-h {
     animation: glitch-h 2s infinite linear;
   }
+
   .animate-glitch-v {
     animation: glitch-v 2s infinite linear;
   }
@@ -65,8 +68,7 @@ body {
   display: inline-block;
   color: white;
   font-weight: bold;
-  text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75), -0.025em -0.05em 0 rgba(0, 255, 0, 0.75), 0.025em 0.05em 0
-    rgba(0, 0, 255, 0.75);
+  text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75), -0.025em -0.05em 0 rgba(0, 255, 0, 0.75), 0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
   animation: glitch-skew 1s infinite linear alternate-reverse;
   transform: skew(0deg);
 }
@@ -85,28 +87,26 @@ body {
   text-shadow: 1px 0 #ff0000;
   background: black;
   animation: glitch-shift-left 2s infinite alternate-reverse steps(2);
-  clip-path: polygon(
-    0 20%,
-    100% 20%,
-    100% 21%,
-    0 21%,
-    0 33%,
-    100% 33%,
-    100% 34%,
-    0 34%,
-    0 49%,
-    100% 49%,
-    100% 50%,
-    0 50%,
-    0 62%,
-    100% 62%,
-    100% 63%,
-    0 63%,
-    0 82%,
-    100% 82%,
-    100% 83%,
-    0 83%
-  );
+  clip-path: polygon(0 20%,
+      100% 20%,
+      100% 21%,
+      0 21%,
+      0 33%,
+      100% 33%,
+      100% 34%,
+      0 34%,
+      0 49%,
+      100% 49%,
+      100% 50%,
+      0 50%,
+      0 62%,
+      100% 62%,
+      100% 63%,
+      0 63%,
+      0 82%,
+      100% 82%,
+      100% 83%,
+      0 83%);
 }
 
 .digital-glitch::after {
@@ -114,24 +114,22 @@ body {
   text-shadow: -1px 0 #00ffff;
   background: black;
   animation: glitch-shift-right 3s infinite alternate-reverse steps(2);
-  clip-path: polygon(
-    0 15%,
-    100% 15%,
-    100% 16%,
-    0 16%,
-    0 45%,
-    100% 45%,
-    100% 46%,
-    0 46%,
-    0 67%,
-    100% 67%,
-    100% 68%,
-    0 68%,
-    0 90%,
-    100% 90%,
-    100% 91%,
-    0 91%
-  );
+  clip-path: polygon(0 15%,
+      100% 15%,
+      100% 16%,
+      0 16%,
+      0 45%,
+      100% 45%,
+      100% 46%,
+      0 46%,
+      0 67%,
+      100% 67%,
+      100% 68%,
+      0 68%,
+      0 90%,
+      100% 90%,
+      100% 91%,
+      0 91%);
 }
 
 /* Líneas de interferencia horizontal */
@@ -148,33 +146,43 @@ body {
   0% {
     transform: translateX(0);
   }
+
   10% {
     transform: translateX(-2px);
   }
+
   20% {
     transform: translateX(-4px);
   }
+
   30% {
     transform: translateX(-2px);
   }
+
   40% {
     transform: translateX(-6px);
   }
+
   50% {
     transform: translateX(-2px);
   }
+
   60% {
     transform: translateX(-8px);
   }
+
   70% {
     transform: translateX(-3px);
   }
+
   80% {
     transform: translateX(-5px);
   }
+
   90% {
     transform: translateX(-1px);
   }
+
   100% {
     transform: translateX(0);
   }
@@ -185,33 +193,43 @@ body {
   0% {
     transform: translateX(0);
   }
+
   10% {
     transform: translateX(2px);
   }
+
   20% {
     transform: translateX(1px);
   }
+
   30% {
     transform: translateX(3px);
   }
+
   40% {
     transform: translateX(1px);
   }
+
   50% {
     transform: translateX(4px);
   }
+
   60% {
     transform: translateX(2px);
   }
+
   70% {
     transform: translateX(5px);
   }
+
   80% {
     transform: translateX(3px);
   }
+
   90% {
     transform: translateX(2px);
   }
+
   100% {
     transform: translateX(0);
   }
@@ -222,33 +240,43 @@ body {
   0% {
     transform: skew(0deg);
   }
+
   10% {
     transform: skew(-0.5deg);
   }
+
   20% {
     transform: skew(0.8deg);
   }
+
   30% {
     transform: skew(0deg);
   }
+
   40% {
     transform: skew(-0.3deg);
   }
+
   50% {
     transform: skew(0.5deg);
   }
+
   60% {
     transform: skew(0deg);
   }
+
   70% {
     transform: skew(0.2deg);
   }
+
   80% {
     transform: skew(-0.4deg);
   }
+
   90% {
     transform: skew(0.3deg);
   }
+
   100% {
     transform: skew(0deg);
   }
