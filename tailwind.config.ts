@@ -105,5 +105,9 @@ const config: Config = {
     },
   },
   plugins: [require("tailwindcss-animate")],
+  safelist: [
+    "digital-glitch",
+    // otras clases que necesites preservar
+  ],
 }
 export default config
